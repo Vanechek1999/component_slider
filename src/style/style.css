@@ -1,0 +1,150 @@
+@import "./fonts.css";
+@import "./fonts.css";
+*{
+    padding: 0;
+    margin: 0;
+}
+button, button:hover, button:active, button:focus, button:target{
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+body{
+    font-family: 'Poppins-bold', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.none{
+    display: none;
+}
+.slider{
+    position: relative;
+    display: block;
+    justify-content: center;
+    max-width: 920px;
+    max-height: 505px;
+    height: 100%;
+    width: 100%;
+}
+.slider_item{
+    margin: 0 auto;
+    position: relative;
+}
+.carousel{
+    position: absolute;
+    top: 201px;
+    left: 73px;
+    z-index: 1;
+}
+.img_option{
+    left: 0;
+    bottom: 0;
+}
+.slider_item svg{
+    position: absolute;
+}
+.slider_img-second{
+    max-width: 267px;
+    width: 100%;
+    justify-content: end;
+}
+.slider_imgDisabled{
+    display: none;
+}
+.slider_imgActive{
+    display: flex;
+}
+.slider_years{
+    display: flex;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+}
+.slider_years-item{
+    position: absolute;
+
+}
+
+.active_year{
+    color: #000;
+    font-size: 108px;
+}
+.active_year span{
+    color: #000;
+    font-size: 36px;
+}
+.disabled_year span{
+    font-size: 24px;
+}
+.disabled_year {
+    color: #7F7F7F;
+    font-size: 48px;
+}
+.year1999{
+    left: 0;
+}
+.year2005{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.year2010{
+    right: 0;
+}
+
+.slider_point-active{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider_point-disabled{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #7F7F7F;
+    border-radius: 50%;
+}
+.slider_point-right{
+    right: 59%;
+}
+.slider_point-left{
+    left: 50%;
+}
+
+.toggleSlide{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 196px auto 0
+}
+.toggleSlide button{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #F2252E;
+    border-radius: 50%;
+}
+.toggleSlide_prev svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.toggleSlide_next{
+    position: absolute;
+}
+.toggleSlide_text{
+    font-family: 'Circe', sans-serif;
+    max-width: 351px;
+    font-size: 24px;
+    font-weight: 400;
+}

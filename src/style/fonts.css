@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/circe.ttf') format('truetype'),;
+    font-style: normal;
+    font-weight: 400;
+}
